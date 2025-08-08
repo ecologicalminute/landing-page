@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.cabecalho{
+    padding: 100px;
+    background-color:white;
+}
+
+.sobre{
+    
+    background-color: #a0d2eb;
+    padding: 180px;   
+}
+
+.textoExplicativo{
+ display: flex;
+}
+
+.sobreMinutoEcologico{
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.iconeCabecalho{
+    width: 50px;
+}
+
+.podcast{
+    padding: 150px;
+    background-color: #cdeccc;
+}
+
+.rodape{
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    color: #a0d2ebeb;
+}
+
+.menu{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    margin-right: 10px;
+    word-spacing: 10px;
+}
+
+.nomeProjetoNoCabecalho{
+    margin: 3px;
+    color: rgb(72, 158, 255);
+    position: relative;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+
+.pessoasEmSobre{
+    width: 500px;
+    margin: 0;
+}
