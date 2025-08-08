@@ -10,7 +10,7 @@ body{
 .sobre{
     
     background-color: #a0d2eb;
-    padding: 180px;   
+    padding: 100px;   
 }
 
 .textoExplicativo{
@@ -20,6 +20,7 @@ body{
 .sobreMinutoEcologico{
     margin-left: 50px;
     text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .iconeCabecalho{
@@ -53,13 +54,14 @@ body{
     font-weight: bold;
 }
 
-a:hover{
-    text-decoration: none;
-    text-decoration: underline;
-}
-
 
 .pessoasEmSobre{
     width: 500px;
     margin: 0;
 }
+
+.menu{
+  text-decoration:none; 
+}
+
+
