@@ -9,7 +9,8 @@ body{
 
 .sobre{
     
-    background-color: #a0d2eb;
+   /* background-color: #a0d2eb;*/
+    background-color: #1E90FF;
     padding: 100px;   
 }
 
@@ -24,7 +25,16 @@ body{
 }
 
 .iconeCabecalho{
-    width: 50px;
+    width: 80px;
+}
+
+.iconeRodape{
+    width: 35px;
+    padding: 5px;
+}
+
+.nomeProjetoRodape{
+    
 }
 
 .podcast{
@@ -33,7 +43,7 @@ body{
 }
 
 .rodape{
-    background-color: black;
+    background-color: #a0d2eb;
     padding: 25px;
     text-align: center;
     color: #a0d2ebeb;
