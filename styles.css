@@ -34,19 +34,27 @@ body{
 }
 
 .nomeProjetoRodape{
-    
+    color: black;
+    font-size: 15px;
 }
 
 .podcast{
     padding: 150px;
-    background-color: #cdeccc;
+    /*background-color: #cdeccc;*/
+    background-color: #36BFB1;
+}
+
+.videos{
+    padding: 150px;
+    /*background-color: #cdeccc;*/
+    background-color: #35c3f7;
 }
 
 .rodape{
     background-color: #a0d2eb;
     padding: 25px;
     text-align: center;
-    color: #a0d2ebeb;
+    color: #36BFB1;
 }
 
 .menu{
@@ -73,5 +81,4 @@ body{
 .menu{
   text-decoration:none; 
 }
-
 
