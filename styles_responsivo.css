@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    padding: 100px;
+    background-color: white;
+    /*min-height: 100vh; */
+}
+
+.sobre {
+    background-color: #1E90FF;
+    padding: 100px;
+}
+
+.textoExplicativo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobreMinutoEcologico {
+    margin-left: 0;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+.iconeCabecalho {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+.iconeRodape {
+    width: 35px;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.nomeProjetoRodape {
+    color: black;
+    font-size: 15px;
+}
+
+.podcast {
+    padding: 150px;
+    background-color: #36BFB1;
+}
+
+.podcast iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+}
+
+.videos {
+    padding: 150px;
+    background-color: #35c3f7;
+}
+
+.rodape {
+    background-color: #a0d2eb;
+    padding: 25px;
+    text-align: center;
+    color: #36BFB1;
+}
+
+.menu {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    margin-right: 10px;
+    word-spacing: 10px;
+    z-index: 1000;
+}
+
+.nomeProjetoNoCabecalho {
+    margin: 3px;
+    color: rgb(72, 158, 255);
+    position: relative;
+    font-weight: bold;
+}
+
+.pessoasEmSobre {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+    .cabecalho,
+    .sobre,
+    .podcast,
+    .videos {
+        padding: 60px 30px;
+    }
+
+    .cabecalho {
+        padding-top: 120px;
+    }
+
+    .menu {
+        top: 15px;
+        right: 15px;
+        margin-right: 0;
+        padding: 10px !important;
+        word-spacing: 4px;
+        font-size: 14px;
+    }
+
+    .textoExplicativo {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .pessoasEmSobre {
+        width: min(500px, 100%);
+    }
+
+    .sobreMinutoEcologico {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 480px) {
+    .cabecalho,
+    .sobre,
+    .podcast,
+    .videos {
+        padding: 40px 20px;
+    }
+
+    .cabecalho {
+        padding-top: 100px;
+        min-height: auto;
+    }
+
+    .menu {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        margin: 0;
+        text-align: center;
+        white-space: normal;
+        word-spacing: 2px;
+    }
+
+    .menu a {
+        display: inline-block;
+        padding: 3px 5px;
+    }
+
+    .iconeCabecalho {
+        width: 60px;
+    }
+
+    .nomeProjetoNoCabecalho {
+        font-size: 18px;
+    }
+
+    .cabecalho h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .sobreMinutoEcologico {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .sobreMinutoEcologico h5 {
+        font-size: 17px;
+    }
+
+    .sobreMinutoEcologico h6 {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .podcast iframe {
+        height: 400px;
+    }
+}
