@@ -1,129 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pesquisa de Mestrado em Botânica sobre o bioma Cerrado, desenvolvida por meio de podcast.">
-  <title>Pesquisa de Mestrado · Botânica & Cerrado</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Podcast Momento Ecológico — ensino de Ecologia mediado por podcasts, com o Cerrado como eixo integrador.">
+<title>Início · Momento Ecológico</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
 <header class="header">
   <div class="container header-inner">
-    <a class="brand" href="#">
-      <span class="brand-icon" aria-hidden="true">
-        <svg viewBox="0 0 42 54" role="img">
-          <path d="M20.5 51V3M20.5 28C12 25 7 18 8 10c7 1 13 7 12.5 18M21 20c2-9 8-14 16-15 0 9-6 15-16 17M20.5 39C13 36 8 31 7 25c7 0 13 5 14 13M21 34c4-7 10-10 16-10-1 7-7 12-16 13" />
-        </svg>
-      </span>
-      <span>
-        <small>PESQUISA DE MESTRADO</small>
-        <strong>Botânica · Cerrado</strong>
-      </span>
+    <a class="brand" href="index.html" aria-label="Momento Ecológico - início">
+      <span class="logo-mark" aria-hidden="true"><span class="logo-ring"></span><span class="logo-mic"></span><span class="leaf leaf-a"></span><span class="leaf leaf-b"></span></span>
+      <span><small>Podcast</small><strong>Momento<br><b>Ecológico</b></strong></span>
     </a>
-
-    <nav class="nav">
-      <a href="#sobre">sobre</a>
-      <a href="#podcast">podcast</a>
-      <a href="#rodape">contato</a>
-    </nav>
+    <nav class="nav" aria-label="Navegação principal"><a class="active" href="index.html">Início</a><a class="" href="pesquisa.html">A pesquisa</a><a class="" href="cerrado.html">O Cerrado</a><a class="" href="podcast.html">Podcast</a><a class="" href="guia.html">Guia didático</a><a class="" href="sobre.html">Sobre</a></nav>
+    <p class="tagline">Conhecer para preservar,<br><em>preservar para conhecer.</em></p>
   </div>
 </header>
 
-<main>
-  <section class="hero">
-    <div class="container hero-inner">
-      <p class="eyebrow">PESQUISA DE MESTRADO</p>
-      <h1>O Cerrado em <em>pesquisa.</em></h1>
-      <span class="rule"></span>
-      <p class="hero-copy">
-        A botânica como caminho para compreender,<br class="desktop">
-        valorizar e conservar a biodiversidade do Cerrado.
-      </p>
-      <a href="#podcast" class="primary-button">
-        <span class="headphones">◖</span> Ouça a pesquisa
-      </a>
+<main id="conteudo">
+<section class="hero">
+  <div class="sun"></div><div class="hill one"></div><div class="hill two"></div><div class="hill three"></div>
+  <div class="container hero-content">
+    <div class="hero-lockup">
+      <div class="hero-mic" aria-hidden="true"><span></span></div>
+      <div><p class="hero-kicker">Podcast</p><h1 class="hero-title">Momento <em>Ecológico</em></h1></div>
     </div>
-  </section>
+    <p class="hero-copy">Ciência, natureza e curiosidade em diálogo pelo Cerrado.</p>
+    <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <div class="hero-object" aria-hidden="true">
+    <div class="mic-object"><div class="mic-head"></div><div class="mic-body"></div><div class="mic-base"></div></div>
+    <div class="book-object">Guia<br>Didático<small>🌿</small></div>
+  </div>
+</section>
 
-  <section id="podcast" class="podcast">
-    <div class="container podcast-inner">
-      <p class="eyebrow">PODCAST DA PESQUISA</p>
-      <h2>Podcast da pesquisa</h2>
-      <span class="rule"></span>
-      <p class="podcast-subtitle">Escute. Conheça o Cerrado.</p>
-      <p class="podcast-copy">
-        Cada episódio traz um capítulo dessa jornada científica,<br class="desktop">
-        do campo ao conhecimento.
-      </p>
+<section class="quick">
+  <div class="container quick-grid">
+    <a href="podcast.html"><span class="quick-icon">◉</span><span>Ouça os<br>episódios</span></a>
+    <a class="gold" href="guia.html"><span class="quick-icon">▤</span><span>Explore o<br>guia didático</span></a>
+    <a href="cerrado.html"><span class="quick-icon">♧</span><span>Conheça o<br>Cerrado</span></a>
+    <a class="gold" href="pesquisa.html#temas"><span class="quick-icon">✿</span><span>Amplie seus<br>conhecimentos</span></a>
+    <a href="sobre.html"><span class="quick-icon">♧</span><span>Conheça quem<br>desenvolveu</span></a>
+  </div>
+</section>
 
-      <div class="player">
-        <iframe
-          title="Podcast da pesquisa no SoundCloud"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay; encrypted-media"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2288575884&color=%233d5a2f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-      </div>
-
-      <div class="player-links">
-        <a href="https://soundcloud.com/ecological-minute" target="_blank" rel="noopener">ecological minute</a>
-        <span>·</span>
-        <a href="https://soundcloud.com/ecological-minute/sets/podcast-minuto-ecologico" target="_blank" rel="noopener">Podcast · Minuto Ecológico</a>
-      </div>
+<section class="section">
+  <div class="container story-grid">
+    <div class="story-copy">
+      <p class="eyebrow">A PESQUISA</p>
+      <h2 class="section-title">Quando a curiosidade encontra a Ecologia.</h2>
+      <p class="lead">A pesquisa concebe e desenvolve o <strong>Podcast Momento Ecológico</strong> como recurso didático-pedagógico para mediar o ensino de Ecologia no Ensino Médio, com ênfase no bioma Cerrado.</p>
+      <p>A proposta articula conhecimento científico, tecnologia digital e mediação pedagógica. O produto foi pensado para aproximar os conteúdos ecológicos de questões socioambientais reais, mobilizando problematização, curiosidade e reflexão.</p>
+      <a class="listen" href="pesquisa.html">Conheça a pesquisa →</a>
+      <div class="quote">“Conhecimento não pesa. É algo que te leva para todos os lugares que você possa imaginar.”<br><small>— Mercedes Bustamante</small></div>
     </div>
-  </section>
+    <aside class="stat-card">
+      <strong>5</strong>
+      <h3>episódios em uma sequência temática</h3>
+      <p>O Cerrado funciona como eixo integrador para abordar crise ambiental, água, biodiversidade, degradação e conservação.</p>
+      <strong style="font-size:42px;display:block;margin-top:30px">2 + 5</strong>
+      <p>Dois componentes complementares: podcast + guia didático, com cinco episódios.</p>
+    </aside>
+  </div>
+</section>
 
-  <section id="sobre" class="info-section">
-    <div class="container info-grid">
-      <article class="info-item">
-        <div class="info-icon">⌁</div>
-        <h2>Caminhos da pesquisa</h2>
-        <span class="short-rule"></span>
-        <p>
-          Do levantamento florístico às análises ecológicas, cada etapa revela
-          a riqueza e os desafios do bioma Cerrado.
-        </p>
-        <a href="#sobre">Saiba mais sobre a pesquisa <span>→</span></a>
-      </article>
+<section class="section method">
+  <div class="container center">
+    <p class="eyebrow">COMO O PRODUTO FOI CONSTRUÍDO</p>
+    <h2 class="section-title">Da fundamentação à disponibilização.</h2>
+    <p class="section-intro">O percurso metodológico foi organizado em etapas sucessivas, desde a fundamentação teórico-metodológica até a sistematização do guia e a disponibilização digital dos materiais.</p>
+  </div>
+  <div class="container steps">
+    <div class="step"><b>01</b><h3>Fundamentação</h3><p>Referenciais pedagógicos, ecológicos e sobre TDIC.</p></div>
+    <div class="step"><b>02</b><h3>Definição</h3><p>Público-alvo, objetivos de aprendizagem e estrutura.</p></div>
+    <div class="step"><b>03</b><h3>Temáticas</h3><p>Seleção de conteúdos e problemas socioambientais.</p></div>
+    <div class="step"><b>04</b><h3>Roteiros</h3><p>Elaboração com rigor conceitual e linguagem acessível.</p></div>
+    <div class="step"><b>05</b><h3>Produção</h3><p>Gravação, edição e finalização dos episódios.</p></div>
+    <div class="step"><b>06</b><h3>Guia</h3><p>Sistematização das orientações de uso pedagógico.</p></div>
+  </div>
+</section>
 
-      <article class="info-item">
-        <div class="info-icon">□</div>
-        <h2>Acompanhe os episódios</h2>
-        <span class="short-rule"></span>
-        <p>
-          Novos episódios podem apresentar dados, reflexões e descobertas
-          da pesquisa em andamento.
-        </p>
-        <a href="#podcast">Ouça agora <span>→</span></a>
-      </article>
+
+<section class="section" style="background:#eef3e8">
+  <div class="container center">
+    <p class="eyebrow">🎧 JÁ ESTÁ NO AR</p>
+    <h2 class="section-title">Escolha um episódio. Aperte o play.</h2>
+    <p class="section-intro">A playlist oficial do projeto está integrada ao site pelo SoundCloud.</p>
+  </div>
+  <div class="container" style="margin-top:34px">
+    <div style="background:#fff;border:1px solid var(--line);border-radius:22px;padding:14px;box-shadow:var(--shadow)">
+      <iframe title="Podcast Momento Ecológico no SoundCloud" scrolling="no" frameborder="no"
+        allow="autoplay; encrypted-media"
+        style="width:100%;height:300px;border:0;border-radius:14px"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2288575884&color=%233b7158&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </div>
-  </section>
+    <div class="center" style="margin-top:18px"><a class="listen" href="podcast.html">Ver todos os episódios →</a></div>
+  </div>
+</section>
+
+<section class="section episodes">
+  <div class="container center">
+    <p class="eyebrow">PODCAST MOMENTO ECOLÓGICO</p>
+    <h2 class="section-title">Cinco conversas sobre o Cerrado.</h2>
+    <p class="section-intro">Uma sequência que conecta conceitos ecológicos, problemas socioambientais e possibilidades de conservação.</p>
+  </div>
+  <div class="container episode-grid">
+    <article class="episode"><span class="num">01</span><h3>A importância da Ecologia em tempos de crise ambiental</h3><p>Biodiversidade, recursos hídricos, uso do território e relações sociedade–ambiente.</p><span class="themes">ECOLOGIA · CRISE AMBIENTAL</span></article>
+    <article class="episode"><span class="num">02</span><h3>Cerrado: berço das águas</h3><p>Vegetação, infiltração, recarga de aquíferos, bacias e alterações no uso do solo.</p><span class="themes">ÁGUA · ECO-HIDROLOGIA</span></article>
+    <article class="episode"><span class="num">03</span><h3>Biodiversidade do Cerrado</h3><p>Formações vegetais, nichos, adaptações, endemismo e heterogeneidade.</p><span class="themes">BIODIVERSIDADE · ADAPTAÇÕES</span></article>
+    <article class="episode"><span class="num">04</span><h3>Cerrado: um bioma em degradação</h3><p>Uso do solo, perda de biodiversidade, recursos hídricos e comunidades locais.</p><span class="themes">DEGRADAÇÃO · TERRITÓRIO</span></article>
+    <article class="episode"><span class="num">05</span><h3>Cerrado: desafios e oportunidades</h3><p>Restauração, conhecimentos locais, espécies nativas, bioeconomia e participação social.</p><span class="themes">CONSERVAÇÃO · SUSTENTABILIDADE</span></article>
+  </div>
+  <div class="container center"><a class="listen" href="podcast.html">Ver a página do podcast →</a></div>
+</section>
+
+<section class="cta">
+  <div class="container cta-inner">
+    <div><p class="eyebrow">PRODUTO EDUCACIONAL</p><h2>Professor: leve o Cerrado para a conversa.</h2></div>
+    <a href="guia.html">Conheça o guia didático →</a>
+  </div>
+</section>
 </main>
 
-<footer id="rodape">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="footer-leaf">
-        <svg viewBox="0 0 42 54">
-          <path d="M20.5 51V3M20.5 28C12 25 7 18 8 10c7 1 13 7 12.5 18M21 20c2-9 8-14 16-15 0 9-6 15-16 17M20.5 39C13 36 8 31 7 25c7 0 13 5 14 13M21 34c4-7 10-10 16-10-1 7-7 12-16 13" />
-        </svg>
-      </span>
-      <div>
-        <p>Pesquisa de Mestrado</p>
-        <p>Botânica · Bioma Cerrado</p>
-        <p>@2026</p>
-      </div>
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">Momento <b>Ecológico</b></div>
+      <p>Produto educacional desenvolvido no âmbito do Mestrado Profissional em Ensino de Biologia em Rede Nacional (PROFBIO/UnB), com o Cerrado como eixo integrador para o ensino de Ecologia.</p>
     </div>
-
-    <div class="socials" aria-label="Redes sociais">
-      <a href="#" aria-label="Instagram">◎</a>
-      <a href="#" aria-label="YouTube">▷</a>
-      <a href="#" aria-label="GitHub">●</a>
+    <div class="footer-links">
+      <strong>Explorar</strong>
+      <a href="pesquisa.html">A pesquisa</a>
+      <a href="cerrado.html">O Cerrado</a>
+      <a href="podcast.html">Podcast</a>
+    </div>
+    <div class="footer-links">
+      <strong>Projeto</strong>
+      <a href="guia.html">Guia didático</a>
+      <a href="sobre.html">Mestrando e UnB</a>
     </div>
   </div>
+  <div class="container footer-bottom">
+    <span>Ensino de Ecologia mediado por podcasts</span>
+    <span>Brasília · 2026</span>
+  </div>
 </footer>
-</body>
-</html>
+
+</body></html>
