@@ -230,3 +230,21 @@ body{background:#fbfaf2}
  linear-gradient(135deg,#e8f0e3,#f7dfb5)}
 .page-hero h1{letter-spacing:-.03em}
 .notice{border-radius:14px}
+
+/* Materiais de apoio dos episódios */
+.material-grid{margin-top:44px;display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+.material-card{background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);align-items:stretch}
+.material-image-wrap{background:#f5f7ef;padding:18px;display:flex;align-items:center;justify-content:center}
+.material-image-wrap img{display:block;width:100%;height:auto;max-height:760px;object-fit:contain;border-radius:14px;box-shadow:0 10px 28px rgba(20,70,51,.08)}
+.material-info{padding:38px 34px;display:flex;flex-direction:column;justify-content:center}
+.material-info h3{color:var(--green-800);font-size:28px;line-height:1.12;margin:16px 0 12px}
+.material-info p{color:var(--muted);font-size:15px;line-height:1.65;margin:0 0 24px}
+.material-actions,.episode-material{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.material-btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:var(--green-800);color:#fff!important;text-decoration:none;padding:11px 15px;border-radius:999px;font-weight:700;font-size:12px;letter-spacing:.02em;transition:transform .2s ease,box-shadow .2s ease}
+.material-btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(20,70,51,.18)}
+.material-link{color:var(--green-700);font-size:12px;font-weight:700;text-decoration:none}
+.material-link:hover{text-decoration:underline}
+.episode-material{margin-top:18px;position:relative;z-index:2}
+.episode .material-btn{font-size:11px;padding:9px 11px}
+.episode .material-link{font-size:11px}
+@media(max-width:900px){.material-card{grid-template-columns:1fr}.material-info{padding:28px 24px}}
